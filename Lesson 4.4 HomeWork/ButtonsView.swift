@@ -12,7 +12,7 @@ struct ButtonsView: View {
     @Binding var currentValue: Double
     @Binding var targetValue: Int
     
-    var score: Int
+    let score: Int
     
     var body: some View {
         VStack {
